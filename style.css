@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: arial;
+  }
+  html{
+    scroll-behavior: smooth;
+  }
+  body{
+    background-color:#10101E;
+    background-size: cover;
+  }
+  #main{
+    width: 78%;
+    height: 680px;
+    background-color: rgb(122, 122, 145);
+    text-align: center;
+    margin: 40px 10px 0 150px;
+    box-shadow: 5px 2px 3px 5px;
+  }
+  #head{
+    background-color:#17D4FE;
+    width: 98%;
+    height: 55px;
+    color: #10101E;
+    padding: 10px;
+    margin-bottom: 60px;
+    padding-bottom: 20px;
+  }
+  #main input{
+    height: 30px;
+    width: 23%;
+    margin-bottom: 10px;
+    font-size: 20px;
+    margin-right:550px;
+    float: right;
+    background-color: #17D4FE;
+    border: transparent;
+  }
+  #main label{
+    font-size: 23px;
+    padding-right: 50px;
+    padding-top: 13px;
+    font-weight: bold;
+    float: left;
+    margin-left: 40px;
+    color: #10101E;
+  }
+  button{
+    background-color:#10101E;
+    color:white;
+    text-decoration:none;
+    border-radius:30px;
+    font-weight: bold;
+    border: none;
+    padding: 15px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    transition-duration: 0.4s;
+    width: 23%;
+    margin-right: 60px;
+}
+        
+  button:hover{
+    background-color: rgb(54, 54, 124);
+    text-decoration: none;
+    transition: .4s;
+}
+  table {
+    border-collapse: collapse;
+    border:2px solid #17D4FE;
+    width: 23%;
+    float: right;
+    margin-right: 40px;
+  }
+          
+  td, th {
+    border-collapse: collapse;
+    border:2px solid #17D4FE;
+    text-align: left;
+    padding: 8px;
+    font-weight:bold;
+    color: #10101E;
+}
+.clock {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    color: #17D4FE;
+    font-size: 60px;
+    letter-spacing: 7px;
+}
+.dg{
+    background-color:#17D4FE;
+    color:#10101E;
+    text-decoration:none;
+    border-radius:30px;
+    font-weight: 700;
+    border: none;
+    padding: 15px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    transition-duration: 0.4s;
+    width: 23%;
+}
+        
+  .dg:hover{
+    background-color: rgb(54, 54, 124);
+    text-decoration: none;
+    transition: .4s;
+}
+}
